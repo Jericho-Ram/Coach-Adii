@@ -83,7 +83,7 @@ h1 .hl{color:var(--magenta)}
 .trust span{display:flex;align-items:center;gap:7px}
 .trust span::before{content:"";width:6px;height:6px;background:var(--cyan);border-radius:50%}
 .portrait{position:relative}
-.portrait img{width:100%;border-radius:3px;filter:contrast(1.05) saturate(.95);border:1px solid var(--edge)}
+..portrait img{width:100%;aspect-ratio:1/1;object-fit:cover;object-position:50% 30%;border-radius:3px;filter:contrast(1.05) saturate(.95);border:1px solid var(--edge)}
 .portrait::after{content:"";position:absolute;left:-10px;top:-10px;bottom:-10px;width:3px;
   background:linear-gradient(180deg,var(--cyan),var(--magenta))}
 .badge{position:absolute;right:14px;bottom:14px;background:rgba(14,14,16,.86);
